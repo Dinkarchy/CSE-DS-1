@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Timetable</title>
+</head>
+<body>
+
+    <h1 align="center">ABES Engineering College</h1>
+    <h2 align="center">Class Timetable</h2>
+
+    <table border="2" cellspacing="0" cellpadding="8" align="center">
+        <caption><b>B.Sc. Computer Science - Semester II Timetable</b></caption>
+        <tr>
+            <th>Day / Time</th>
+            <th>9:00 - 10:00</th>
+            <th>10:00 - 11:00</th>
+            <th>11:00 - 12:00</th>
+            <th>12:00 - 1:00</th>
+            <th>1:00 - 2:00</th>
+            <th>2:00 - 3:00</th>
+            <th>3:00 - 4:00</th>
+        </tr>
+
+        <tr>
+            <th>Monday</th>
+            <td rowspan="2">Mathematics</td>
+            <td>Data Structures</td>
+            <td>English</td>
+            <td rowspan="6" align="center"><b>LUNCH BREAK</b></td>
+            <td>Computer Networks</td>
+            <td colspan="2" align="center">Lab (C Programming)</td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td>Operating Systems</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Data Structures</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <th>Wednesday</th>
+            <td>English</td>
+            <td colspan="2" align="center">Lab (Data Structures)</td>
+            <td>Mathematics</td>
+            <td>Computer Networks</td>
+            <td>Library</td>
+        </tr>
+
+        <tr>
+            <th>Thursday</th>
+            <td>Operating Systems</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td colspan="2" align="center">Seminar</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <th>Friday</th>
+            <td>Computer Networks</td>
+            <td>Operating Systems</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td colspan="2" align="center">Lab (Web Designing)</td>
+        </tr>
+
+        <tr>
+            <th>Saturday</th>
+            <td colspan="3" align="center">Workshop</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>Club Activity</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Nested Table Example -->
+    <h2 align="center">Faculty Details</h2>
+    <table border="2" cellspacing="0" cellpadding="8" align="center">
+        <caption><b>Subject Faculty Information</b></caption>
+        <tr>
+            <th>Subject</th>
+            <th>Faculty</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>Dr. Sharma</td>
+            <td>
+                <!-- Nested Table -->
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr><th>Email</th><th>Room</th></tr>
+                    <tr><td>sharma@abes.edu</td><td>Room 101</td></tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Data Structures</td>
+            <td>Prof. Mehta</td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr><th>Email</th><th>Room</th></tr>
+                    <tr><td>mehta@abes.edu</td><td>Room 202</td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
