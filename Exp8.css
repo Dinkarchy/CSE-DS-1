@@ -1,0 +1,32 @@
+.p{
+    height: 500px;
+    width: 400px; 
+    background-color: bisque;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.p img{
+    border: 5px solid;
+    border-color: white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+
+}
+
+.Product{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
